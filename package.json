@@ -1,0 +1,17 @@
+{
+  "name": "adela-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "description": "Static HTML landing page scaffold powered by Tailwind CSS and Vite.",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.10"
+  }
+}

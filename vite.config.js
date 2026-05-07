@@ -1,0 +1,13 @@
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  root: "src",
+  base: "./",
+  publicDir: "../public",
+  plugins: [tailwindcss()],
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
+});

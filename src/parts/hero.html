@@ -1,0 +1,65 @@
+<section id="hero" class="overflow-hidden bg-[#eef7ff]">
+  <div class="relative mx-auto w-[min(100%,1580px)] overflow-hidden">
+    <div
+      class="flex h-[min(calc(100vh-80px),765px)] transition-transform duration-500 ease-in-out"
+      data-hero-slider
+    >
+      <button
+        class="flex h-full min-w-full items-center justify-center bg-white"
+        type="button"
+        data-hero-image="/assets/images/hero/hero-1.jpg"
+      >
+        <img
+          src="/assets/images/hero/hero-1.jpg"
+          alt="Adela hero banner 1"
+          class="h-full w-full object-contain"
+        />
+      </button>
+
+      <button
+        class="flex h-full min-w-full items-center justify-center bg-white"
+        type="button"
+        data-hero-image="/assets/images/hero/hero-2.jpg"
+      >
+        <img
+          src="/assets/images/hero/hero-2.jpg"
+          alt="Adela hero banner 2"
+          class="h-full w-full object-contain"
+        />
+      </button>
+
+      <button
+        class="flex h-full min-w-full items-center justify-center bg-white"
+        type="button"
+        data-hero-image="/assets/images/hero/hero-3.jpg"
+      >
+        <img
+          src="/assets/images/hero/hero-3.jpg"
+          alt="Adela hero banner 3"
+          class="h-full w-full object-contain"
+        />
+      </button>
+    </div>
+  </div>
+</section>
+
+<div
+  class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/55 px-4"
+  data-hero-modal
+>
+  <button
+    type="button"
+    class="absolute right-5 top-5 grid size-11 place-items-center rounded-full bg-black/70 text-3xl font-light leading-none text-white shadow-lg ring-1 ring-white/40 transition hover:bg-black"
+    data-hero-close
+    aria-label="Đóng"
+  >
+    ×
+  </button>
+
+  <img
+    src=""
+    alt="Adela banner preview"
+    class="max-h-[86vh] w-auto max-w-[90vw] object-contain"
+    data-hero-modal-image
+  />
+</div>
